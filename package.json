@@ -1,0 +1,25 @@
+{
+  "name": "techdegree-project-5",
+  "version": "1.0.0",
+  "description": "Techdegree Project 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwalker206/techdegree-project-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwalker206/techdegree-project-5/issues"
+  },
+  "homepage": "https://github.com/bwalker206/techdegree-project-5#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "lightbox2": "^2.11.3"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
