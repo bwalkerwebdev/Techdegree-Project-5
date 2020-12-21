@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -8,17 +9,23 @@ body {
   margin: auto;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
+li img {
+  width: 100%;
+  font-size: 16px;
+  padding: 5%;
 }
 
-.container img {
-  height: auto;
-  padding: 10px;
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
   width: 100%;
-  margin: auto;
-  font-size: 16px;
+  padding: 5%;
+}
+
+li {
+  width: 100%;
+  text-align: center;
 }
 
 input {
@@ -34,6 +41,39 @@ input::placeholder {
   font-size: 16px;
 }
 
+#myInput {
+  background-image: url("/css/searchicon.png"); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
 @media screen and (min-width: 768px) {
   .container {
     flex-direction: row;
@@ -41,9 +81,8 @@ input::placeholder {
     justify-content: space-between;
   }
 
-  .container a {
+  li {
     width: 47%;
-    text-align: center;
   }
 
   input {
@@ -55,7 +94,7 @@ input::placeholder {
 }
 
 @media screen and (min-width: 1024px) {
-  .container a {
+  li {
     width: 23%;
   }
 }
