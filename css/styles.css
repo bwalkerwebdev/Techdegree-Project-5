@@ -13,6 +13,7 @@ li img {
   width: 100%;
   font-size: 16px;
   padding: 5%;
+  max-width: 300px;
 }
 
 ul {
