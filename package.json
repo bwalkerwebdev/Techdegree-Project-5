@@ -8,18 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bwalker206/techdegree-project-5.git"
+    "url": "git+https://github.com/bwalkerwebdev/techdegree-project-5.git"
   },
-  "author": "",
+  "author": "Brian Walker",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bwalker206/techdegree-project-5/issues"
+    "url": "https://github.com/bwalkerwebdev/techdegree-project-5/issues"
   },
-  "homepage": "https://github.com/bwalker206/techdegree-project-5#readme",
+  "homepage": "https://github.com/bwalkerwebdev/techdegree-project-5#readme",
   "dependencies": {
-    "jquery": "^3.5.1",
-    "lightbox2": "^2.11.3"
-  },
-  "devDependencies": {},
-  "keywords": []
+    "baguettebox.js": "^1.11.1"
+  }
 }

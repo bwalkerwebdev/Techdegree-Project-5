@@ -12,9 +12,12 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/lightbox2/dist/css/lightbox.css"
+      href="node_modules/baguettebox.js/dist/baguetteBox.min.css"
     />
-    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script
+      src="node_modules/baguettebox.js/dist/baguetteBox.min.js"
+      async
+    ></script>
     <title>Interactive Photo Gallery</title>
   </head>
   <body>
@@ -27,12 +30,12 @@
       /><br />
     </div>
     <div class="container">
-      <ul id="myUL">
+      <ul id="myUL" class="gallery">
         <li>
           <a
             href="photos/01.jpg"
-            data-lightbox="roadtrip"
-            data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
+            title="Hay Bales"
+            data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
             ><img src="photos/thumbnails/01.jpg" alt="Hay Bales" />Hay Bales</a
           >
         </li>
@@ -132,7 +135,11 @@
         </li>
       </ul>
     </div>
-    <script src="node_modules/lightbox2/dist/js/lightbox.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        baguetteBox.run(".gallery");
+      });
+    </script>
     <script src="js/search.js"></script>
   </body>
 </html>

@@ -16,9 +16,16 @@ li img {
 }
 
 ul {
-  display: flex;
-  flex-direction: column;
-  flex-flow: row wrap;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . .";
   width: 100%;
   padding: 5%;
 }
@@ -68,6 +75,7 @@ input::placeholder {
   font-size: 18px; /* Increase the font-size */
   color: black; /* Add a black text color */
   display: block; /* Make it into a block element to fill the whole list */
+  width: 300px;
 }
 
 #myUL li a:hover:not(.header) {
