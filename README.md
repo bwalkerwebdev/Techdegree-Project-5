@@ -15,7 +15,7 @@
   </a>
 </p>
 
-> Techdegree Project 5
+> An Interactive photo gallery. Notice how the search box uses JavaScript to filter the images a caption is typed. Basic HTML is used to create the gallery as well as CSS for responsive (mobile-first) styling. Incorporates BaguetteBox plugin and for image popup effect.
 
 ### 🏠 [Homepage](https://github.com/bwalkerwebdev/techdegree-project-5#readme)
 
@@ -25,7 +25,7 @@
 
 👤 **Brian Walker**
 
-- Website: http://bwalkerwebdev.com/
+- Website: https://www.bwalkerwebdev.com/
 - Twitter: [@BWalkerWebDev](https://twitter.com/BWalkerWebDev)
 - Github: [@bwalkerwebdev](https://github.com/bwalkerwebdev)
 - LinkedIn: [@brianwalker150](https://linkedin.com/in/brianwalker150)
