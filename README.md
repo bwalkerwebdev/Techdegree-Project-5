@@ -15,7 +15,7 @@
   </a>
 </p>
 
-> An Interactive photo gallery. Notice how the search box uses JavaScript to filter the images a caption is typed. Basic HTML is used to create the gallery as well as CSS for responsive (mobile-first) styling. Incorporates BaguetteBox plugin and for image popup effect.
+> An Interactive photo gallery. Notice how the search box uses JavaScript to filter the images when a caption is typed. Basic HTML is used to create the gallery as well as CSS for responsive (mobile-first) styling. Incorporates BaguetteBox plugin and for image popup effect.
 
 ### 🏠 [Homepage](https://github.com/bwalkerwebdev/techdegree-project-5#readme)
 
