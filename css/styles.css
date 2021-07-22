@@ -17,15 +17,7 @@ li img {
 
 ul {
   display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 0px 0px;
-  grid-template-areas:
-    ". . . ."
-    ". . . ."
-    ". . . .";
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   width: 100%;
   padding: 5%;
 }
@@ -80,29 +72,4 @@ input::placeholder {
 
 #myUL li a:hover:not(.header) {
   background-color: #eee; /* Add a hover effect to all links, except for headers */
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  li {
-    width: 47%;
-  }
-
-  input {
-    max-width: 65%;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  li {
-    width: 23%;
-  }
 }
